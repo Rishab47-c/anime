@@ -1,0 +1,96 @@
+.row{
+    display: flex;
+}
+
+.row-a{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.row-b{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+/* .row-e{
+    display: flex;
+  justify-content: space-evenly;
+  padding-top: 15%;
+  overflow-x: auto;  
+  
+} */
+.row-e{
+ 
+  justify-content: space-evenly;
+  
+  display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+    border: transparent;
+  box-sizing: content-box;
+ padding: 10px;
+ margin-top:0%;
+ padding-left: 14%;
+}
+.row-f{
+    /* display: flex;
+  justify-content: space-evenly;
+  padding-top: 10%; */
+     display: flex;
+  justify-content: space-evenly;
+  padding-top: 10%; 
+  overflow-y: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  border:transparent;
+box-sizing: content-box;
+padding: 10px;
+
+
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    max-height: 250px; /* Set a maximum height for the container */
+    
+}
+ 
+
+.row-v{
+    display: flex;
+  justify-content: space-evenly;
+  padding-top: 10%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+    border: transparent;
+  box-sizing: content-box;
+ padding: 10px;
+ margin-top:0%;
+ padding-left: 8%;
+}
+.row-g{
+    display: flex;
+  justify-content: space-evenly;
+  padding-top: 10%;
+}
+.row-g1{
+    display: flex;
+  justify-content: space-evenly;
+  padding-top: 1%;
+}
+.row-g2{
+    display: flex;
+  justify-content: space-evenly;
+  padding-top: 1%;
+}
+
+.logo-link{
+ display: flex;
+ padding-bottom: 2%;
+ padding-right: 2%;
+ gap: 8px;
+}
+
+
+

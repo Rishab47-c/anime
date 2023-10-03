@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+#nav {
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-left: 3%;
+    position: fixed;
+    justify-content: flex-start;
+    border-bottom: 2px solid gray;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    overflow: hidden;
+    z-index: 99;
+}
+
+#nav>h3 {
+    font-size: 59px;
+    font-weight: 900;
+    padding-right: 1%;
+}
+
+#nav h4 {
+    font-size: 22px;
+}
+
+#nav .input input {
+    width: 521px;
+    height: 45px;
+    background-color: #8080806b;
+    color: white;
+    font-size: 15px;
+    border: #605d5d;
+    border-radius: 6.6px;
+
+}
+
+#nav .li {
+    width: 65px;
+    height: 31px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.581);
+    border-radius: 6px;
+}
+
+#nav .GS {
+    width: 93px;
+    height: 38px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+#main {
+    position: relative;
+    background-color: rgb(35, 33, 33);
+
+
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    padding-left: 7%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -65%;
+    color: white;
+
+}
+
+#page1 h1 {
+    font-size: 65px;
+    margin-bottom: 1%;
+}
+
+
+#page1 h3 {
+    font-size: 22px;
+    width: 44%;
+}
+
+#page1 .LM {
+    width: 104px;
+    height: 38px;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#page1 .TW {
+    width: 104px;
+    height: 38px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.737);
+    border-radius: 7px;
+}
+
+#page2 {
+    width: 100%;
+    height: auto;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+ 
+}
+
+#row1 {
+    width: 100%;
+    height: 179px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    align-items: center;
+    padding-left: 10%;
+}
+
+
+.item-img {
+
+    /* aspect-ratio: 1/1.4;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 6px; */
+  
+   
+    min-width: 242.933px; 
+    min-height: 340.1px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+    aspect-ratio: 1/1.4;
+    position: relative;
+    
+    
+}
+
+
+
+    
+  
+
+.item-img2 {
+
+    aspect-ratio: 16/9;
+    width: calc(100%/3.3);
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+    min-height:245.05px;
+    min-width: 435.633px;
+    margin-bottom: 32px;
+}
+
+#page1>h1 {
+    margin-top: 400px;
+}
+
+#special {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 9%;
+    position: relative;
+}
+#feature {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 6%;
+    position: relative;
+}
+#tranding {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 6%;
+    position: relative;
+}
+#popular {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 6%;
+    position: absolute;
+}
+.SM{
+    
+        padding: 10px;
+        width: 100%;
+        height: 44PX;
+        background-color: rgba(255, 255, 255, .8);
+        color: rgba(22, 22, 23, .8);
+        font-weight: 600;
+        border-radius: 6px;
+    
+
+}
+.f-item{
+    height: 42px;
+    width: 159px;
+}
+.row h3{
+    padding-left: 8%;
+}
+
+
+.image-container {
+    text-align: center; 
+    margin: 10px; 
+    position: relative; 
+    
+}
+   
+
+
+
+
+
+
+
+
+.image-text {
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); /* Center the text horizontally */
+    font-size: 14px;
+    color: #fff; 
+    background-color:transparent;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+
+        
+        
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #252424;
+        }
+
+        .login-container {
+            width: 29%;
+            margin: 0 auto;
+            padding: 160px;
+            background-image: url(wallpapersden.com_chainsaw-man-denji-fighting-mode_1920x1200.jpg) ;
+            object-fit: cover;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(144, 78, 78, 0.3);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        .login-form {
+            margin-top: 20px;
+
+        }
+
+        .form-group {
+            margin-bottom: 19px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            color:whitesmoke;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #394548;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-left: 2.5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container" >
+        <h2>Login</h2>
+        <form class="login-form" action="#" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
